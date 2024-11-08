@@ -15,4 +15,4 @@ def counting_game(target_count=100_000_000):
 # Run the game
 counting_game()
 # run it on python
-# to stop press CTRL + ALT
+# to stop press CTRL + C
