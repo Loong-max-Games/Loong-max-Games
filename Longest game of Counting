@@ -1,0 +1,16 @@
+import time
+
+def counting_game(target_count=100_000_000):
+    print("Welcome to the Ultimate Patience Game!")
+    print(f"Your goal is to wait until the computer counts up to {target_count}.")
+    print("This will take over 3 years at 1 count per second! Feel free to stop anytime.")
+    input("Press Enter to start the game...")
+
+    for i in range(1, target_count + 1):
+        print(i)
+        time.sleep(1)  # Pause for 1 second between each number
+
+    print(f"\nCongratulations! The computer counted to {target_count}. Thanks for your patience!")
+
+# Run the game
+counting_game()
